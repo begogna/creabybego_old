@@ -448,3 +448,7 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+.dl-horizontal dt {
+    white-space: pre-wrap;
+}
