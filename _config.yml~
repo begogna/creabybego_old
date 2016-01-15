@@ -26,10 +26,10 @@ kramdown:
 
 # Site owner
 owner:
-  name: Begoña Pérez Rodríguez
+  name: Your Name
   avatar: bio-photo.jpg
-  bio: "Hej mindi !"
-  email: begona.perezrodriguez@gmail.com
+  bio: "Describe your self."
+  email:
   disqus-shortname:
   twitter: #username
   facebook: #username
@@ -42,7 +42,7 @@ owner:
   bing-verify:
   github: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #begogna
+  linkedin: #username
   xing: #username
   instagram: #username
   lastfm: #username
