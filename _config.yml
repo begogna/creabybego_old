@@ -1,12 +1,12 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Begoña´s portfolio
 locale:           en_US
 url:
 
 
 # Jekyll configuration
-
+encoding: utf-8
 permalink:   /:categories/:title/
 markdown:    kramdown
 highlighter: pygments
