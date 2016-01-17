@@ -25,6 +25,8 @@ image:
 
 Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
 
+hej
+
 # Heading 1
 
 ## Heading 2
