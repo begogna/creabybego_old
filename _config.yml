@@ -28,7 +28,7 @@ kramdown:
 owner:
   name: Begoña Pérez Rodríguez
   avatar: bego_one_eyed.png
-  bio: "Hej mindi !"
+  bio: "3d artist and designer"
   email: begona.perezrodriguez@gmail.com
   disqus-shortname:
   twitter: #username
@@ -42,7 +42,7 @@ owner:
   bing-verify:
   github: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #begogna
+  linkedin: begonaperez
   xing: #username
   instagram: #username
   lastfm: #username
@@ -51,11 +51,12 @@ owner:
   foursquare: #username
   steam: #username
   dribbble: #username
-  youtube: #username
+  youtube: bellataza
   soundcloud: #username
   weibo: #username
   flickr: #username
   codepen: #username
+  behance: begogna
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
