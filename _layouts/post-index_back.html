@@ -13,6 +13,12 @@
 
 {% include _navigation.html %}
 
+#table example
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
 
 
 {% if page.image.feature %}
@@ -21,7 +27,7 @@
     {% if page.image.feature contains 'http' %}
       "{{ page.image.feature }}"
     {% else %}
-      "{{ site.url }}/images/3dprinting/{{ page.image.feature }}"
+      "{{ site.url }}/images/3dprinting{{ page.image.feature }}"
     {% endif %}
   alt="{{ page.title }} feature image">
   {% if page.image.credit %}
@@ -48,16 +54,11 @@
           <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></a></h2>
         {% else %}
           <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-          <p>{{ post.excerpt | strip_html | truncate: 160 }}</p> 
-        
+          <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
 
-        <img src=
-            {% if post.small_img %}
-              "{{ site.url }}/images/3dprinting/{{ post.small_img }}"
-            {% endif %}
-          alt="{{ page.title }} feature image">
-
-          
+          {% if post.small_img %}
+          <img src="{{ site.url }}/images/3dprinting/{{ post.small_img }}">
+           {% endif %}
         {% endif %}
       </article>
     {% endfor %}
@@ -71,14 +72,6 @@
 </div><!-- /.footer-wrap -->
 
 {% include _scripts.html %}
-
-
-<!-- table -->
-
-
-          
-         
-
 
 </body>
 </html>
