@@ -21,7 +21,7 @@
     {% if page.image.feature contains 'http' %}
       "{{ page.image.feature }}"
     {% else %}
-      "{{ site.url }}/images/3dprinting/{{ page.image.feature }}"
+      "{{ site.url }}/images/{{ page.image.feature }}"
     {% endif %}
   alt="{{ page.title }} feature image">
   {% if page.image.credit %}
@@ -53,7 +53,7 @@
 
         <img src=
             {% if post.small_img %}
-              "{{ site.url }}/images/3dprinting/{{ post.small_img }}"
+              "{{ site.url }}/images/{{ post.small_img }}"
             {% endif %}
           alt="{{ page.title }} feature image">
 

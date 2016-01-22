@@ -12,6 +12,7 @@ sitemap: false
 */
 
 // Partials
+//@import "bootstrap";
 @import "variables";
 @import "grid";
 @import "mixins";
@@ -27,4 +28,3 @@ sitemap: false
 @import "vendor/magnific-popup/magnific-popup";
 //@import "vendor/google/fonts";
 @import "print";
-//@import "bootstrap";
