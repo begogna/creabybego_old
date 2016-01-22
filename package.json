@@ -1,25 +1,22 @@
 {
-  "name": "minimal-mistakes-theme",
-  "author": "Michael Rose <michael@mademistakes.com>",
-  "homepage": "http://mmistakes.github.io/minimal-mistakes/",
+  "name": "Mickey",
+  "version": "0.0.1",
+  "description": "A minimal one-column, responsive theme for Jekyll",
+  "homepage": "http://vincentchan.github.io/mickey",
+  "author": "Vincent Chan",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mmistakes/minimal-mistakes.git"
-  },
-  "bugs": {
-    "url": "https://github.com/mmistakes/minimal-mistakes/issues"
-  },
-  "engines": {
-    "node": ">= 0.10.0"
+    "url": "https://github.com/vincentchan"
   },
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-jshint": "~0.6.3",
-    "grunt-contrib-uglify": "~0.2.2",
-    "grunt-contrib-watch": "~0.5.2",
-    "grunt-recess": "~0.3.5",
-    "grunt-contrib-imagemin": "~0.2.0",
-    "grunt-svgmin": "~0.2.0"
+    "browser-sync": "~2.9.7",
+    "concurrent-transform": "^1.0.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "~3.0.2",
+    "gulp-image-resize": "^0.6.0",
+    "gulp-minify-css": "~1.2.1",
+    "gulp-postcss": "~6.0.0",
+    "gulp-rename": "~1.2.2",
+    "gulp-sass": "^2.0.4"
   }
 }

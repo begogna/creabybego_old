@@ -1,20 +1,28 @@
 ---
 layout: post
 title: Curve ring
+date:   2016-01-18 01:00:00
 excerpt: "A ring I modelised and then printed in 3d"
-tags: [3dprinting, 3d, printing]
-comments: true
+categories: history
+tags: 3dprinting, 3d, printing
 image:
-  feature:
-  credit: Begoña Pérez Rodríguez
-small_img: 3dprinting/curve_ring_small.jpg  
+  feature: curve_ring.jpg
+  topPosition: 0px
+bgContrast: dark
+bgGradientOpacity: darker
+syntaxHighlighter: no
 ---
 
 # Final result
 
-![alt text]({{ site.url }}/images/3dprinting/curve_ring.jpg "ring laying tranquille on the sofa")
+![alt text](/assets/images/hero/curve_ring.jpg "ring laying tranquille on the sofa")
 
 --- 
 
-![alt text]({{ site.url }}/images/3dprinting/curve_ring2.jpg "me wearing the ring ^^")
+![alt text](/assets/images/hero/curve_ring_2.jpg "me wearing the ring ^^")
+
+---
+
+![alt text](/assets/images/hero/curve_ring_3.jpg "me wearing the ring ^^")
+
 

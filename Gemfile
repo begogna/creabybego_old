@@ -1,6 +1,4 @@
-source "https://rubygems.org"
 
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+gem 'jekyll'
 gem 'json_pure'
-gem 'jekyll', '2.5.3'
-gem 'jekyll-sitemap'
-gem 'octopress', '~> 3.0'
