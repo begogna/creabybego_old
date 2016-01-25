@@ -76,7 +76,23 @@
     }
   }
 
-  li:nth-child(1).block {
+  li.block-medium {
+    width: 50%;
+
+    .postArticle-image {
+      padding-top: 50%;
+    }
+
+    .postArticle-title {
+      font-size: $font-S;
+    }
+
+    @media (max-width: $screen-xs-max) {
+      width: 100%;
+    }
+  }
+
+  li:nth-child(1).block-auto {
     width: 100%;
 
     .postArticle-image {
@@ -92,8 +108,8 @@
     }
   }
 
-  li:nth-child(2).block,
-  li:nth-child(3).block {
+  li:nth-child(2).block-auto,
+  li:nth-child(3).block-auto {
     width: 50%;
 
     .postArticle-image {
