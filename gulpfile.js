@@ -86,6 +86,7 @@ gulp.task('watch', function() {
           '*.txt',
           'about/**',
           '_posts/*.markdown',
+          '_posts_3dprinting/*.markdown',
           'assets/javascripts/**/**.js',
           'assets/images/**',
           'assets/fonts/**',

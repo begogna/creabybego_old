@@ -1,5 +1,5 @@
 The pictures are taken from the path that are defined in config.yml. When a small picture is required, it is taken from the folder
-thumnails (baseurl_posts_img:'/assets/images/posts/'). When a big picture is required, from the folder hero (baseurl_featured_img: '/assets/images/hero/')
+thumnails (baseurl_featured_thumbnail: '/assets/images/thumbnail/'). When a big picture is required, from the folder hero (baseurl_featured_img: '/assets/images/hero/')
 
 The name of the picture is defined inside the header of the post, under "image,feature", so you have to have a picture with this name in both folders. It can be the same or different, but the size has to be coherent with the usage.
 

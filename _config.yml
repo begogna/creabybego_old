@@ -43,6 +43,11 @@ destination:      	 ./_site
 exclude:          	 [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "sass", "haml"]
 port:             	 9001
 
+# a collection to use as a value in "type " of a scope with this comment: # a collection in your site, in plural form
+# collections:
+#   - my_collection:
+#     output: true
+
 defaults:
   -
     scope:
