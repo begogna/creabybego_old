@@ -3,7 +3,7 @@ layout: post
 title: Curve ring
 date:   2016-01-18 01:00:00
 excerpt: "A ring I modelised and then printed in 3d"
-categories: 3dprinting
+categories: ['3dprinting']
 tags: 3dprinting
 image:
   feature: curve_ring.jpg

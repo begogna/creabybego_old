@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: 3d printing
 date:   2016-01-18 01:00:00
 excerpt: "3d printing"
@@ -14,6 +14,49 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-<p>
-  Click <a href="../index_3dprinting.html"> here </a> to know more about 3d printing 
-</p>
+
+<section class="section--first section--frontpage">
+  <div class="section-title">
+    <div class="container">
+      <h1>
+        {{ site.name }}
+      </h1>
+      <div class="postMeta-wrapper postMeta-wrapper--frontpage">
+        <ul class="postMeta">
+          <li class="postMeta-tagline">
+            3D artist and visual designer
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section--postsWrapper">
+  <div class="container">
+    <div class="blockGroup">
+      <ul class="blockGroup-list">
+        {% for post in site.categories.3dprinting %}
+          <li class="block-medium">
+            <div class="postArticle-wrapper">
+              <article class="postArticle postArticle--short">
+                {% if post.image.feature %}
+                  <a href="{{ post.url }}">
+                    <div class="postArticle-image desaturate" style="background-image:url('{{ post.image.feature | prepend: site.baseurl_featured_img }}')">
+                    </div>
+                  </a>
+                {% else %}
+                <a href="{{ post.url }}">
+                  <div class="postArticle-image" style="background-image:url('{{site.baseurl}}assets/images/logo-black.svg')">
+                  </div>
+                </a>
+                {% endif %}
+                <a class="postArticle-title" href="{{ post.url }}">{{ post.title }}</a>
+              </article>
+              <div class="block-postMeta">{{ post.date | date_to_string }}</div>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
