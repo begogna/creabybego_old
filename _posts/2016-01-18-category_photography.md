@@ -14,6 +14,15 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
+<p>
+      Click <a href="/slider.html">here</a> to see some of my photographies.
+</p>
+
+
+
+
+<!-- Images using flexslider -->
+
 <!--<div class="flexslider">  <!-- Place somewhere in the <body> of your page --
 
   <ul class="slides">
@@ -36,9 +45,12 @@ syntaxHighlighter: no
   </ul>
 </div> -->
 
-![alt text](/assets/images/hero/waffle.jpg "waffle")
+
+<!-- Images in normal mode -->
+
+<!-- ![alt text](/assets/images/hero/waffle.jpg "waffle")
 
 ![alt text](/assets/images/hero/fish_soup.jpg "fish soup in Åstol")
 
-![alt text](/assets/images/hero/focaccia.jpg "focaccia in Genova")
+![alt text](/assets/images/hero/focaccia.jpg "focaccia in Genova") -->
  

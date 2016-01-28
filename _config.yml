@@ -8,10 +8,10 @@ permalink:           /:title
 relative_permalinks: true
 
 # Setup
-timezone:            your timezone # eg. Asia/Kathmandu
+timezone:            Europe/France # eg. Asia/Kathmandu
 locale:              en_us
 name:		             Begoña Perez Rodriguez
-title:               BEGO
+title:               Begoña's portfolio
 tagline:             'tagline'
 description:         'description'
 url:                 site url
@@ -25,15 +25,12 @@ icon:                your site icon path # /assets/img/icon.png [best 300px X 30
 disqus:              disqus_shortname # get it on https://disqus.com/admin/
 
 author:
-  name:           	 sssyour name
-  url:            	 your site url
+  name:           	 Begoña Perez Rodriguez
+  url:            	 begogna.github.io
   facebook:          username
-  twitter:           username
-  google_plus:       username
   linkedin:          username
-  dribbble:          username
   pinterest:         username
-  kiva:              username
+
 
 fb_admins:           your facebook profile id
 fb_appid:            your facebook app id
