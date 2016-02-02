@@ -1,7 +1,7 @@
 
 # Syntax highlighting
 markdown:            redcarpet
-highlighter:         pygments
+highlighter:         rouge
 
 # Permalinks are no longer suported by jekyll
 permalink:           /:title
