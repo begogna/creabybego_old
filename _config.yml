@@ -3,9 +3,8 @@
 markdown:            redcarpet
 highlighter:         pygments
 
-# Permalinks
+# Permalinks are no longer suported by jekyll
 permalink:           /:title
-relative_permalinks: true
 
 # Setup
 timezone:            Europe/France # eg. Asia/Kathmandu
