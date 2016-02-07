@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Architecture
+title: Architecture and interior design
 date:   2016-01-18 01:00:00
-excerpt: "Architecture"
+excerpt: "Architecture and interior design"
 #last modified: 2013-05-31
 categories: ['indice_categorias']
 tags: indice_categorias

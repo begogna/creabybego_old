@@ -13,14 +13,7 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 
-I modeled and rendered this beds using 3dsmax from the pictures below.
 
-![alt text](/assets/images/hero/nono1.jpg "Lits escamotables")
----
-![alt text](/assets/images/hero/nono2.jpg "Lits escamotables")
---- 
-![alt text](/assets/images/hero/nono3.jpg "Lits escamotables")
----
 
 
 <!-- <embed src="/assets/images/hero/lit_esca_begona_perez.mp4" width="426" height="240" loop="1"> </embed> -->
@@ -42,13 +35,20 @@ Sorry, your browser doesn't support embedded videos,
 </video>
 </p>
 
- ![alt text](/assets/images/hero/lit_escamontableZoom.jpg "Lits escamotables")
----
+![alt text](/assets/images/hero/lit_escamontableZoom.jpg "Lits escamotables")
+
 ![alt text](/assets/images/hero/lit_escamontable_perez_begona.jpg "Lits escamotables")
---- 
+
 ![alt text](/assets/images/hero/lit_escamontable_perez_begona_2.jpg "Lits escamotables")
 
 
+I modeled and rendered this beds using 3dsmax from the pictures below.
+
+![alt text](/assets/images/hero/nono1.jpg "Lits escamotables")
+
+![alt text](/assets/images/hero/nono2.jpg "Lits escamotables")
+ 
+![alt text](/assets/images/hero/nono3.jpg "Lits escamotables")
 
 
 
