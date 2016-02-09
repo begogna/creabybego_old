@@ -13,14 +13,9 @@ bgGradientOpacity: darker
 syntaxHighlighter: no
 ---
 <p>
-	I modeled this chair using 3ds max and rendered in Keyshot. It is the Butterfly from the company Promemoria.
+	I modeled this chair based on the Butterfly from the company Promemoria.
+	I used 3ds max and rendered it in Keyshot.
 </p>
-<h4>
-Pictures of the original chair </h4>
-(Credits www.promemoria.com)
-![alt text](/assets/images/hero/armchair _butterfly_01-570.jpg)
-![alt text](/assets/images/hero/armchair_butterfly_02-570.jpg)
-![alt text](/assets/images/hero/chair_butterfly_01-635_th1-671.jpg)
 
 <h4> 3D model </h4>
 
@@ -29,5 +24,11 @@ Pictures of the original chair </h4>
 ![alt text](/assets/images/hero/promemoria_butterfly.45.jpg "butterfly chair")
 
 
+<h4>
+Pictures of the original chair </h4>
+(from www.promemoria.com)
+![alt text](/assets/images/hero/armchair _butterfly_01-570.jpg)
+![alt text](/assets/images/hero/armchair_butterfly_02-570.jpg)
+![alt text](/assets/images/hero/chair_butterfly_01-635_th1-671.jpg)
 
 
