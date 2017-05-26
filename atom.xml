@@ -1,4 +1,4 @@
----
+--
 layout: null
 sitemap:
   exclude: true
@@ -18,7 +18,6 @@ sitemap:
 		<link href="{{ item.url | prepend: siteurl }}" />
 		<link rel="alternate" type="text/html" href="{{ item.url | prepend: siteurl }}"/>
 		<id>{{ item.url | prepend: siteurl }}</id>
-		<updated>{{ item.date | date_to_xmlschema }}</updated>
 		<summary>Some text.</summary>
 		<content type="xhtml">
 			<div xmlns="http://www.w3.org/1999/xhtml">
