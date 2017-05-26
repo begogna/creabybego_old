@@ -1,0 +1,33 @@
+---
+layout: null
+sitemap:
+  exclude: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	{% capture siteurl %}{% if site.github.url %}{{ site.github.url }}{% else %}{{ site.url }}{% endif %}{% endcapture %}
+	<title>{{ site.title | xml_escape }}</title>
+	<subtitle>{{ site.description | markdownify | strip_html | xml_escape }}</subtitle>
+	<link href="{{ siteurl }}/atom.xml" rel="self" />
+	<link href="{{ siteurl }}/" />
+	<id>{{ siteurl }}/</id>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+  {% for item in site.items limit:10 %}
+	<entry>
+		<title>{{ item.title | xml_escape }}</title>
+		<link href="{{ item.url | prepend: siteurl }}" />
+		<link rel="alternate" type="text/html" href="{{ item.url | prepend: siteurl }}"/>
+		<id>{{ item.url | prepend: siteurl }}</id>
+		<updated>{{ item.date | date_to_xmlschema }}</updated>
+		<summary>Some text.</summary>
+		<content type="xhtml">
+			<div xmlns="http://www.w3.org/1999/xhtml">
+				{{ item.content }} {% include feed-footer.html %}
+			</div>
+		</content>
+		<author>
+			<name>{{ site.copyright }}</name>
+		</author>
+	</entry>
+  {% endfor %}
+</feed>

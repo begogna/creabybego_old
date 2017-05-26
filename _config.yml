@@ -1,53 +1,27 @@
-
-# # Syntax highlighting
-# markdown:            redcarpet
-highlighter:         rouge
-
-# Permalinks are no longer suported by jekyll
-permalink:           /:title
-
-# Setup
-timezone:            Europe/France # eg. Asia/Kathmandu
-locale:              en_us
-name:		             Begoña Perez Rodriguez
-title:               Begoña's portfolio
-tagline:             'tagline'
-description:         'description'
-url:                 site url
-rss:                 rss feed url
-baseurl:             '/'
-baseurl_posts_img:   '/assets/images/posts/'
-baseurl_featured_img: '/assets/images/hero/'
-baseurl_featured_thumbnail: '/assets/images/thumbnail/'
-baseurl_javascripts: '/assets/javascripts/'
-icon:                your site icon path # /assets/img/icon.png [best 300px X 300px]
-disqus:              begognasportfolio # get it on https://disqus.com/admin/
-
-author:
-  name:           	 Begoña Perez Rodriguez
-  url:            	 begogna.github.io
-  facebook:          username
-  linkedin:          username
-  pinterest:         username
-
-
-fb_admins:           your facebook profile id
-fb_appid:            your facebook app id
-
-# Server
-destination:      	 ./_site
-exclude:          	 [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "sass", "haml"]
-port:             	 9001
-
-# a collection to use as a value in "type " of a scope with this comment: # a collection in your site, in plural form
-# collections:
-#   - my_collection:
-#     output: true
-
-defaults:
-  -
-    scope:
-      path: "_posts"
-      type: "posts"
-    values:
-      layout: "default"
+title: Begoña Perez Rodriguez - 3D artist and designer
+description: >
+  **I am Begoña**, a 3D artist and designer.
+copyright: CreaByBego
+sass:
+  sass_dir: assets/sass
+url: http://localhost:4000
+disqus_shortname: 
+facebook_username:
+twitter_username: "#"
+linkedin_username: "#"
+instagram_username:
+pinterest_username:
+flickr_username:
+github_username:  "#"
+feed_icon: rss
+email: "begona.perezrodriguez@gmail.com"
+gems: [jekyll-paginate]
+paginate_path: "/page/:num/"
+paginate: 5
+collections:
+  sections:
+    output: true
+    permalink: /:path/
+  items:
+    output: true
+    permalink: /:collection/:path/

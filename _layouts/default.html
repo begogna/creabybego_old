@@ -1,26 +1,26 @@
-<!DOCTYPE html>
-<html lang="en-us" class="no-js">
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    {% include head.html %}
+    {% include opengraph.html %}
+    {% include twittercard.html %}
+  </head>
+	<body id="top">
 
-  {% include head.html %}
+		{% include header.html %}
 
-  <body>
-    {% if page.url != '/index.html' %}
-      <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-      {% include sidebar-nav.html %}
-      {% include menu.html %}
-    {% endif %}
+		<!-- Main -->
+			<div id="main">
+				{{ content }}
+			</div>
 
-    {{ content }}
-
-    {% if page.url != '/index.html' %}
-      {% include sidebar-toggle.html %}
-    {% endif %}
-
-    {% if page.url == '/index.html' %}
-      {% include subscribe.html %}
       {% include footer.html %}
-    {% endif %}
+      {% include scripts.html %}
 
-    {% include footer-scripts.html %}
-  </body>
+	</body>
 </html>
