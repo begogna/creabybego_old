@@ -1,0 +1,44 @@
+---
+layout: default
+image: /images/fulls/01.jpg
+---
+
+<article>
+  <header class="major">
+    <h2>{{ page.title }}</h2>
+    <p>
+      {% if page.categories %}<i class="fa fa-tags"></i> {{ page.categories | array_to_sentence_string }}.{% endif %}
+      {% include readingtime.html %}
+    </p>
+  </header>
+
+  <section>
+    {{ content }}
+  </section>
+</article>
+
+{% include disqus.html %}
+
+{% if page.previous.url or page.next.url %}
+<hr />
+<div class="row">
+  <article class="6u 12u$(xsmall) work-item">
+    {% if page.previous.url %}
+    <p>Previous</p>
+    <h3><a href="{{ page.previous.url }}">{{page.previous.title}}</a></h3>
+    <p>{{ page.previous.excerpt | strip_html }}</p>
+    {% endif %}
+  </article>
+  <article class="6u$ 12u$(xsmall) work-item">
+    {% if page.next.url %}
+    <p>Next</p>
+    <h3><a href="{{ page.next.url }}">{{page.next.title}}</a></h3>
+    <p>{{ page.next.excerpt | strip_html }}</p>
+    {% endif %}
+  </article>
+</div>
+{% endif %}
+
+</div>
+
+
