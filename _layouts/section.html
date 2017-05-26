@@ -1,0 +1,28 @@
+---
+layout: default
+image: /images/fulls/01.jpg
+---
+
+<h1>{{page.name}}</h1>
+
+<section>
+  <div class="row">
+    {% for item in site.items %}
+    {% if item.categories contains page.name %}
+    <article class="6u 12u$(xsmall) work-item">
+      <a href="{{ site.github.url }}{{ item.url }}" class="image
+							       fit
+							       thumb">
+	{% if item.thumbnail %}
+	<img src="{{ site.github.url }}{{ item.thumbnail }}" alt=""/>
+	{% else %}
+	<img src="{{ site.github.url }}/images/thumbs/01.jpg" alt=""/>
+	{% endif %}
+      </a>
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.excerpt }}</p>
+    </article>
+    {% endif %}
+    {% endfor %}
+  </div>
+</section>

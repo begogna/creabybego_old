@@ -13,14 +13,14 @@ sitemap:
     <atom:link href="{{ siteurl }}/rss.xml" rel="self" type="application/rss+xml" />
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    {% for post in site.posts limit:10 %}
+    {% for item in site.items limit:10 %}
     <item>
-      <title>{{ post.title | xml_escape }}</title>
-      <description><![CDATA[ {{ post.content }} {% include feed-footer.html %} ]]></description>
-      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-      <link>{{ post.url | prepend: siteurl }}</link>
-      <guid isPermaLink="true">{{ post.url | prepend: siteurl }}</guid>
-      {% for cat in post.categories %}
+      <title>{{ item.title | xml_escape }}</title>
+      <description><![CDATA[ {{ item.content }} {% include feed-footer.html %} ]]></description>
+      <pubDate>{{ item.date | date_to_rfc822 }}</pubDate>
+      <link>{{ item.url | prepend: siteurl }}</link>
+      <guid isPermaLink="true">{{ item.url | prepend: siteurl }}</guid>
+      {% for cat in item.categories %}
       <category>{{ cat | xml_escape }}</category>
       {% endfor %}
     </item>

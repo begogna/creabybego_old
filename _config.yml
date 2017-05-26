@@ -1,6 +1,6 @@
-title: Begoña Perez Rodriguez - 3D artist
+title: Begoña Perez Rodriguez - 3D artist and designer
 description: >
-  **I am Begoña**, a super simple girl.
+  **I am Begoña**, a 3D artist and designer.
 copyright: CreaByBego
 sass:
   sass_dir: assets/sass
@@ -18,3 +18,10 @@ email: "begona.perezrodriguez@gmail.com"
 gems: [jekyll-paginate]
 paginate_path: "/page/:num/"
 paginate: 5
+collections:
+  sections:
+    output: true
+    permalink: /:path/
+  items:
+    output: true
+    permalink: /:collection/:path/

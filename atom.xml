@@ -12,17 +12,17 @@ sitemap:
 	<link href="{{ siteurl }}/" />
 	<id>{{ siteurl }}/</id>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-  {% for post in site.posts limit:10 %}
+  {% for item in site.items limit:10 %}
 	<entry>
-		<title>{{ post.title | xml_escape }}</title>
-		<link href="{{ post.url | prepend: siteurl }}" />
-		<link rel="alternate" type="text/html" href="{{ post.url | prepend: siteurl }}"/>
-		<id>{{ post.url | prepend: siteurl }}</id>
-		<updated>{{ post.date | date_to_xmlschema }}</updated>
+		<title>{{ item.title | xml_escape }}</title>
+		<link href="{{ item.url | prepend: siteurl }}" />
+		<link rel="alternate" type="text/html" href="{{ item.url | prepend: siteurl }}"/>
+		<id>{{ item.url | prepend: siteurl }}</id>
+		<updated>{{ item.date | date_to_xmlschema }}</updated>
 		<summary>Some text.</summary>
 		<content type="xhtml">
 			<div xmlns="http://www.w3.org/1999/xhtml">
-				{{ post.content }} {% include feed-footer.html %}
+				{{ item.content }} {% include feed-footer.html %}
 			</div>
 		</content>
 		<author>
