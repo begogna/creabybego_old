@@ -17,7 +17,6 @@ sitemap:
     <item>
       <title>{{ item.title | xml_escape }}</title>
       <description><![CDATA[ {{ item.content }} {% include feed-footer.html %} ]]></description>
-      <pubDate>{{ item.date | date_to_rfc822 }}</pubDate>
       <link>{{ item.url | prepend: siteurl }}</link>
       <guid isPermaLink="true">{{ item.url | prepend: siteurl }}</guid>
       {% for cat in item.categories %}
