@@ -7,8 +7,13 @@ image: /images/fulls/01.jpg
   <header class="major">
     <h2>{{ page.title }}</h2>
     <p>
-      {% if page.categories %}<i class="fa fa-tags"></i> {{ page.categories | array_to_sentence_string }}.{% endif %}
-      {% include readingtime.html %}
+      {% for section in site.sections %}
+      {% if section.name contains page.category %}
+      <i class="fa fa-tags"></i>
+      <a href="{{ site.github.url }}{{ section.url }}" >{{ section.name }}</a>
+      {% endif %}
+      {% endfor %}
+      <span style="padding-left: 10px;">{% include readingtime.html %}</span>
     </p>
   </header>
 
