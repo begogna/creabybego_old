@@ -6,14 +6,20 @@ sass:
   sass_dir: assets/sass
 url: http://localhost:4000
 disqus_shortname: 
-facebook_username:
-twitter_username: "#"
-linkedin_username: "#"
+facebook_username: "creabybego"
+twitter_username:
+linkedin_username: "begonaperez"
 instagram_username:
 pinterest_username:
 flickr_username:
-github_username:  "#"
-feed_icon: rss
+github_username: "begogna"
+feed_icon:
+etsy_username: "CreaByBego"
+sketchfab_username: "begogna"
+shapeways_hireme: "designer/begogna/hire-me"
+imaterialise_username: "begogna"
+skype_username: "begogna"
+
 email: "begona.perezrodriguez@gmail.com"
 gems: [jekyll-paginate]
 paginate_path: "/page/:num/"

@@ -2,31 +2,46 @@
   <footer id="footer">
     <ul class="icons">
       {% if site.facebook_username %}
-      <li><a href="https://www.facebook.com/{{ site.facebook_username }}" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+      <li><a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
       {% endif %}
       {% if site.twitter_username %}
-      <li><a href="https://twitter.com/{{ site.twitter_username }}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+      <li><a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
       {% endif %}
       {% if site.linkedin_username %}
-      <li><a href="https://linkedin.com/in/{{ site.linkedin_username }}" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+      <li><a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
       {% endif %}
       {% if site.instagram_username %}
-      <li><a href="https://www.instagram.com/{{ site.instagram_username }}" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+      <li><a href="https://www.instagram.com/{{ site.instagram_username }}" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
       {% endif %}
       {% if site.pinterest_username %}
-      <li><a href="https://pinterest.com/{{ site.pinterest_username }}" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+      <li><a href="https://pinterest.com/{{ site.pinterest_username }}" target="_blank" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
       {% endif %}
       {% if site.flickr_username %}
-      <li><a href="https://www.flickr.com/photos/{{ site.flickr_username }}" class="icon fa-flickr"><span class="label">Flickr</span></a></li>
+      <li><a href="https://www.flickr.com/photos/{{ site.flickr_username }}" target="_blank" class="icon fa-flickr"><span class="label">Flickr</span></a></li>
       {% endif %}
       {% if site.github_username %}
-      <li><a href="https://github.com/{{ site.github_username }}" class="icon fa-github"><span class="label">Github</span></a></li>
+      <li><a href="https://github.com/{{ site.github_username }}" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
       {% endif %}
       {% if site.email %}
-      <li><a href="mailto:{{ site.email }}" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+      <li><a href="mailto:{{ site.email }}" target="_blank" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
       {% endif %}
       {% if site.feed_icon %}
-      <li><a href="{{ site.github.url }}/{{ site.feed_icon }}.xml" class="icon fa-rss"><span class="label">Feed</span></a></li>
+      <li><a href="{{ site.github.url }}/{{ site.feed_icon }}.xml" target="_blank" class="icon fa-rss"><span class="label">Feed</span></a></li>
+      {% endif %}
+      {% if site.etsy_username %}
+      <li><a href="https://www.etsy.com/shop/{{ site.etsy_username }}" target="_blank" class="icon fa-etsy"><span class="label">Etsy</span></a></li>
+      {% endif %}
+      {% if site.sketchfab_username %}
+      <li><a href="https://sketchfab.com/{{ site.sketchfab_username }}" target="_blank" class="icon fa-cube"><span class="label">Sketchfab</span></a></li>
+      {% endif %}
+      {% if site.shapeways_hireme %}
+      <li><a href="https://www.shapeways.com/{{ site.shapeways_hireme }}" target="_blank" class="icon-brand bf-shapeways"><span class="label"></span></a></li>
+      {% endif %}
+      {% if site.imaterialise_username %}
+      <li><a href="https://i.materialise.com/shop/designer/{{ site.imaterialise_username }}" target="_blank" class="icon-brand"><span class="label"><i>i.m</i></span></a></li>
+      {% endif %}
+      {% if site.skype_username %}
+      <li><a href="skype:{{ site.skype_username }}" target="_blank" class="icon fa-skype"><span class="label">Skype</span></a></li>
       {% endif %}
     </ul>
     <ul class="copyright">
