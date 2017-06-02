@@ -1,7 +1,7 @@
 ---
 layout: section
 name: '3D modeling'
-excerpt: '3D models I have created during the years.'
+excerpt: 'Some of my 3D models.'
 image: '/images/thumbs/chair.jpg'
 ---
 

@@ -1,0 +1,21 @@
+---
+layout: default
+name: 'Photography'
+excerpt: 'My favourite shots.'
+image: '/images/thumbs/photography.jpg'
+images:
+  - image_path: '/images/thumbs/photography.jpg'
+    title: Apple Pie
+    link: /photography.html
+---
+
+
+<ul class="photo-gallery">
+  {% for image in page.images %}
+    <li>
+      <a href="{{ image.link }}">
+        <img src="{{ image.image_path }}" alt="{{ image.title}}"/>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
