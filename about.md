@@ -4,8 +4,14 @@ image: /images/fulls/01.jpg
 ---
 
 
-<div class="image fit">
-<img src="/images/bego_about.jpg "></div>
+<!-- <div class="image fit">
+<img src="/images/bego_about.jpg "></div> -->
+<div class="align-center">
+	<div class="image fit-orig">
+		<img src="/images/fulls/3D_printing/mini_bego/bego_se_mira.jpg">
+	</div>
+</div>
+
 
 Begoña Pérez Rodríguez
 ======================

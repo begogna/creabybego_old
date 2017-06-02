@@ -12,33 +12,32 @@ excerpt: 'Little cat that I designed and printed in sterling silver.'
 
 
  <p>
-I took a 2d image of the silhouette of a cat, modified it a bit and then I used Photoshop to create a 3d layer from this image, then I exported it to ZBrush
+Made with Photoshop and ZBrush
  </p>
-<div class="image fit">
-<img src="/images/fulls/3D_printing/chat_original_image.PNG "></div>
+
+<div class="image fit-orig">
+<img src="/images/fulls/3D_printing/cat_pendant/chat_original_image.PNG "  width="0.5em"></div>
 <h4>
        Polygon rendering in ZBrush
  </h4>
 
 <div class="image fit">
-<img src="/images/fulls/3D_printing/chat_render_poly_trans.png "></div>
+<img src="/images/fulls/3D_printing/cat_pendant/chat_render_poly_trans.png "></div>
 
 <h4>
        Render with silver material in ZBrush
  </h4>
 <div class="image fit">
-<img src="/images/fulls/3D_printing/chat_render_trans.png "></div>
+<img src="/images/fulls/3D_printing/cat_pendant/chat_render_trans.png "></div>
 <h4>
        Test before printing
  </h4>
-<div class="image fit">
-<img src="/images/fulls/3D_printing/chat_rendu_chaine.jpg "></div>
 
 <h4>
        Final result, printed in Sterling Silver Gloss
  </h4>
 <div class="image fit">
-<img src="/images/fulls/3D_printing/cat1_blury_small.jpg "></div>
+<img src="/images/fulls/3D_printing/cat_pendant/cat1_blury_small.jpg "></div>
  
   
 

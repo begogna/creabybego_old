@@ -539,6 +539,21 @@
 			}
 		}
 
+		&.fit-orig {
+			display: inline-block;
+			margin: 0 0 _size(element-margin) 0;
+			/*width: 100%;*/
+
+			img {
+				width: 100%;
+			}
+
+			/* This is not to have the gray bg, do for all the images ? */
+			&:before {
+				background:none;
+			}
+		}
+
 		&.avatar {
 			border-radius: 100%;
 
@@ -547,7 +562,7 @@
 			}
 
 			img {
-				border-radius: 100%;
+				/*border-radius: 100%;*/
 				width: 100%;
 			}
 		}
