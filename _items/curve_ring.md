@@ -3,6 +3,7 @@ layout: item
 title: Curve ring
 excerpt: "A ring I modelised and then printed in 3d"
 category: '3D printing'
+thumbnail: '/images/thumbs/3D_printing/curve_ring/curve_ring.jpg'
 ---
 
 

@@ -3,6 +3,7 @@ layout: item
 title: Text ring
 excerpt: "Text ring"
 category: '3D printing'
+thumbnail: '/images/thumbs/3D_printing/text_ring/text_ring.jpg'
 ---
 
 A ring with my sister's name in two different types of font that I modelised using 3ds max and Z-brush and then printed in prime gray.

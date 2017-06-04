@@ -4,7 +4,7 @@
 
 git clone [this repository]
 
-Install dependencies
+Install dependencies (contained in the Gemfile)	
 ```
 bundle install
 ```

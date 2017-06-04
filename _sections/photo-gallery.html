@@ -3,14 +3,128 @@ layout: default
 name: 'Photography'
 excerpt: 'My favourite shots.'
 image: '/images/thumbs/photography.jpg'
+image_list:
+  - image_path: '/images/thumbs//Photography/fish_soup.jpg'
+    title: Fish soup in Åstol
+    link: '/images/fulls/Photography/fish_soup.jpg'
+  - image_path: '/images/thumbs/Photography/focaccia.jpg'
+    title: The best focaccia in Genova, Italy
+    link: '/images/fulls/Photography/focaccia.jpg'
+  - image_path: '/images/thumbs/Photography/pulsera_mar.jpg'
+    title: By the sea in Theoule-sur-mer, French Riviera
+    link: '/images/fulls/Photography/pulsera_mar.jpg'
+  - image_path: '/images/thumbs/Photography/ferrata_peille.jpg'
+    title: Via ferrata, Peille
+    link: '/images/fulls/Photography/ferrata_peille.jpg'
+  - image_path: '/images/thumbs/Photography/molino.jpg'
+    title: Windmill in Consuegra, Toledo, Spain
+    link: '/images/fulls/Photography/molino.jpg'
+  - image_path: '/images/thumbs/Photography/caravane_ardeche_front.jpg'
+    title: Abandoned van in Ardeche, France
+    link: '/images/fulls/Photography/caravane_ardeche_front.jpg'
+  - image_path: '/images/thumbs/Photography/muffin.jpg'
+    title: Tasty chocolate muffin in Nice, French Riviera.
+    link: '/images/fulls/Photography/muffin.jpg'  
+  - image_path: '/images/thumbs/Photography/nino_balon.jpg'
+    title: Sunset in Juan les Pins, French Riviera
+    link: '/images/fulls/Photography/nino_balon.jpg'
+  - image_path: '/images/thumbs/Photography/playa_pareja.jpg'
+    title: Love in Juan les Pins, French Riviera
+    link: '/images/fulls/Photography/playa_pareja.jpg'
+  - image_path: '/images/thumbs/Photography/waffle.jpg'
+    title: Waffle
+    link: '/images/fulls/Photography/waffle.jpg'       
+---
+
+
+
+
+<section id="two">
+  <h2>Photographies</h2>
+  <div class="row">
+
+
+    {% for image in page.image_list %}
+      <article class="6u 12u$(xsmall) work-item">
+        <a href="{{ image.link }}" class="image fit thumb"><img src="{{ image.image_path }}" alt="{{ image.title}}" /></a>
+        <h3>"{{ image.title}}"</h3>
+        <p></p>
+      </article>
+    {% endfor %}
+
+<!--              
+    <article class="6u 12u$(xsmall) work-item">
+      <a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
+      <h3>Magna sed consequat tempus</h3>
+      <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+    </article>
+    
+
+    <article class="6u$ 12u$(xsmall) work-item">
+      <a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
+      <h3>Ultricies lacinia interdum</h3>
+      <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+    </article>
+    
+
+    <article class="6u 12u$(xsmall) work-item">
+      <a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
+      <h3>Tortor metus commodo</h3>
+      <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+    </article>
+   
+
+    <article class="6u$ 12u$(xsmall) work-item">
+      <a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
+      <h3>Quam neque phasellus</h3>
+      <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+    </article>
+   
+
+    <article class="6u 12u$(xsmall) work-item">
+      <a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
+      <h3>Nunc enim commodo aliquet</h3>
+      <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+    </article>
+  
+
+    <article class="6u$ 12u$(xsmall) work-item">
+      <a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
+      <h3>Risus ornare lacinia</h3>
+      <p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+    </article> -->
+ 
+
+  </div>
+  
+</section>
+
+ <!-- Scripts -->
+  <script src="../assets/js/jquery.min.js"></script>
+  <script src="../assets/js/jquery.poptrox.min.js"></script>
+  <script src="../assets/js/skel.min.js"></script>
+  <script src="../assets/js/util.js"></script>
+  <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+  <script src="../assets/js/main.js"></script> 
+
+
+
+
+
+
+<!-- ---
+layout: default
+name: 'Photography'
+excerpt: 'My favourite shots.'
+image: '/images/thumbs/photography.jpg'
 images:
-  - image_path: '/images/fulls/Photography/photography.jpg'
+  - image_path: '/images/fulls/Photography/waffle.jpg'
+    title: Apple Pie
+    link: /images/fulls/Photography/photography.jpg
+  - image_path: '/images/fulls/Photography/waffle.jpg'
     title: Apple Pie
     link: /photography.html
-  - image_path: '/images/fulls/Photography/photography.jpg'
-    title: Apple Pie
-    link: /photography.html
-  - image_path: '/images/fulls/Photography/photography.jpg'
+  - image_path: '/images/fulls/Photography/waffle.jpg'
     title: Apple Pie
     link: /photography.html 
 ---
@@ -19,9 +133,9 @@ images:
 <ul class="photo-gallery">
   {% for image in page.images %}
     <li>
-      <a href="{{ image.link }}">
+      <a href="{{ image.link }}" target="_blank">
         <img src="{{ image.image_path }}" alt="{{ image.title}}"/>
       </a>
     </li>
   {% endfor %}
-</ul>
+</ul> -->

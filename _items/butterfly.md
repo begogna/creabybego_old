@@ -3,7 +3,7 @@ layout: item
 title: Promemoria butterfly chair
 excerpt: "Promemoria butterfly chair"
 category: '3D modeling'
-
+thumbnail: '/images/thumbs/3D_modeling/butterfly/promemoria_butterfly.45.jpg'
 ---
 
 

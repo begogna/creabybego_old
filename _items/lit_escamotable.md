@@ -3,6 +3,7 @@ layout: item
 title: Lits escamotables
 excerpt: "Lits escamotables"
 category: '3D modeling'
+thumbnail: '/images/thumbs/3D_modeling/lit_escamotable/lit_escamontableZoom.jpg'
 ---
 
 

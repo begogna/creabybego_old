@@ -2,7 +2,9 @@
 layout: item
 title: 'Cat pendant'
 category: '3D printing'
+image: '/images/thumbs/3D_printing/cat_pendant/cat_pendant.jpg'
 excerpt: 'Little cat that I designed and printed in sterling silver.'
+thumbnail: '/images/thumbs/3D_printing/cat_pendant/cat_pendant.jpg'
 ---
 
 

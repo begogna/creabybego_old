@@ -3,6 +3,7 @@ layout: item
 title: Littlefoot
 excerpt: "Littlkefoot, from the animation movie"
 category: '3D printing'
+thumbnail: '/images/thumbs/3D_printing/littlefoot/piecito.jpg'
 ---
 
 I modeled Littlefoot (from the animation movie The Land before Time) and polypainted it using ZBrush

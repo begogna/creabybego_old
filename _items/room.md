@@ -3,6 +3,7 @@ layout: item
 title: Room
 excerpt: "A room with some objects I like"
 category: '3D modeling'
+thumbnail: '/images/thumbs/3D_modeling/room/bedCharmRural5.jpg'
 ---
 
 <p>Modeled in 3ds max and Marvelous Designer for the sheets, cushions and dresses.</p>

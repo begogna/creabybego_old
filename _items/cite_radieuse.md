@@ -3,6 +3,7 @@ layout: item
 title: Cité Radieuse
 excerpt: "Cité radieuse de Marseille de Le Corbusier"
 category: '3D modeling'
+thumbnail: '/images/thumbs/3D_modeling/cite_radieuse/piscine_cite_radieuse.jpg'
 ---
 
 <p>Modeled and rendered using 3ds max and VRay</p>
