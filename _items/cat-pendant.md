@@ -13,6 +13,7 @@ thumbnail: '/images/thumbs/3D_printing/cat_pendant/cat_pendant.jpg'
  </h4>
 
 
+
  <p>
 Made with Photoshop and ZBrush
  </p>
