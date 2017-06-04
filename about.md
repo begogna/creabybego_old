@@ -4,15 +4,21 @@ image: /images/fulls/01.jpg
 ---
 
 
-<div class="image fit">
-<img src="/images/bego_about.jpg "></div>
+<!-- <div class="image fit">
+<img src="/images/bego_about.jpg "></div> -->
+<div class="align-center">
+	<div class="image fit-orig">
+		<img src="/images/bego_about.jpg">
+	</div>
+</div>
+
 
 Begoña Pérez Rodríguez
 ======================
 
-<p>Hi !</p>
-<p>Welcome to my portfolio. Here I show some of my creations, clasified by fields.</p>
-<p>I'm a Spanish girl living in France. I am passionate about crafting and design. That's why after several years working as a software developer I decided to study 3D computer graphics. Then I discovered 3D printing and I have no doubt that is the future and I absolutly want to be part of it. I do 3D modeling for 3D printing as a freelance and also in my spare time for myself or friends. You can take a look of my work in this site and in my social media links.</p>
+<p>Hi,</p>
+<p>Welcome to my portfolio !<br>
+I'm a Spanish girl living in France. I am passionate about crafting and design. That's why after several years working as a software developer I decided to study 3D computer graphics. Then I discovered 3D printing and I have no doubt that is the future and I absolutly want to be part of it. I do 3D modeling for 3D printing as a freelance and also in my spare time for myself or friends. You can take a look of my work in this site and in my social media links.</p>
 <p>See you around !</p>
 
 <!-- After graduating in Computer Science Engineering I worked as software developer for almost five years. Then I decided to follow my passion and free my creativity. I studied 3D computer graphics in Lyon and then started 3D modeling as a freelance. My models are mostly for 3D printing, as I've always liked to create physical objects. I believe this technology is the future and I want to be one of the first participating in the development of it. -->
