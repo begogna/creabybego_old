@@ -5,7 +5,7 @@ copyright: CreaByBego
 sass:
   sass_dir: assets/sass
 url: http://localhost:4000
-disqus_shortname: 
+disqus_shortname: "begogna"
 facebook_username: "creabybego"
 twitter_username:
 linkedin_username: "begonaperez"

@@ -33,6 +33,9 @@ Below is the most important folder hierarchy that the Jekyll template uses
 ├── _layouts - Different Jekyll layouts.
 ├── _sections - All categories, one markdown file per category.
 └── _site - The generated site.
+    ├── about.html <- Generated from about.md.
+    └── ...
+
 ```
 
 ## Add new item
