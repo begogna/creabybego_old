@@ -19,7 +19,7 @@ Made with Photoshop and ZBrush
  </p>
 
 <div class="image fit-orig">
-<img src="/images/fulls/3D_printing/cat_pendant/chat_original_image.PNG "  width="0.5em"></div>
+<img src="/images/fulls/3D_printing/cat_pendant/chat_original_image.png " ></div>
 <h4>
        Polygon rendering in ZBrush
  </h4>
