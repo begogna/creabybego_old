@@ -11,27 +11,28 @@ image_list:
     title: Fitness shorts waistband
     link: '/images/fulls/Sewing/shorts_detail.jpg' 
   - image_path: '/images/thumbs/Sewing/vestido.jpg'
-    title: Dress I entirely designed. Elastic cotton.
+    title: Dress I entirely designed and sewed with eslastic cotton.
     link: '/images/fulls/Sewing/vestido.jpg'
   - image_path: '/images/thumbs/Sewing/vestido_camiseta.jpg'
-    title: Dress I designed and T-shirt I copied from one mine.
+    title: Dress I designed and T-shirt I copied from one of mine.
     link: '/images/fulls/Sewing/vestido_camiseta.jpg' 
   - image_path: '/images/thumbs/Sewing/neceser_hibou2.jpg'
     title: Toiletry Bag vinyl lined 
+    link: '/images/fulls/Sewing/neceser_hibou2.jpg'
   - image_path: '/images/thumbs/Sewing/neceser_hibou_detalle.jpg'
-    title: Toiletry Bag vinyl lined zip
+    title: Toiletry Bag vinyl lined detail
     link: '/images/fulls/Sewing/neceser_hibou_detalle.jpg'
   - image_path: '/images/thumbs/Sewing/neceser_sueco.jpg'
     title: Travel Bag
     link: '/images/fulls/Sewing/neceser_sueco.jpg'
   - image_path: '/images/thumbs/Sewing/neceser_sueco_zip.jpg'
-    title: Travel Bag zip
+    title: Travel Bag detail
     link: '/images/fulls/Sewing/neceser_sueco_zip.jpg'
   - image_path: '/images/thumbs/Sewing/mono_roca.jpg'
     title: Jumpsuit I designed and sewed with elastic cotton
     link: '/images/fulls/Sewing/mono_roca.jpg'
   - image_path: '/images/thumbs/Sewing/mono_roca_back.jpg'
-    title: Jumpsuit I designed and sewed with elastic cotton
+    title: Jumpsuit back
     link: '/images/fulls/Sewing/mono_roca_back.jpg'
   - image_path: '/images/thumbs/Sewing/coussin_passepoil.jpg'
     title: Pillow cover with Paris drawings
@@ -48,14 +49,13 @@ image_list:
 ---
 
 
-<section>
+<section id="two">
   <h2>Photos of my sewing</h2>
   <div class="row">
     {% for image in page.image_list %}
       <article class="6u 12u$(xsmall) work-item">
         <a href="{{ image.link }}" class="image fit thumb"><img src="{{ image.image_path }}" alt={{ image.title}} /></a>
         <h3>{{ image.title}}</h3>
-        <p></p>
       </article>
     {% endfor %}
   </div>  

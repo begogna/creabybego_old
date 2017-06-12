@@ -4,10 +4,24 @@ layout: item
 title: 'Pencils box'
 category: '3D printing'
 image: '/images/thumbs/3D_printing/boite_crayons/boite_crayons.jpg'
-excerpt: 'Boite crayons.'
+excerpt: 'Pencils box'
 thumbnail: '/images/thumbs/3D_printing/boite_crayons/boite_crayons.jpg'
 ---
 
+
+<h4> 3D model </h4>
+<p>
+Modeled and rendered using 3ds max and VRay
+</p>
+
+<div class="image fit">
+<img src="/images/fulls/3D_modeling/boite_crayons/boite_crayons.jpg"></div>
+
+
+<h4>
+Pictures of the original pencil box</h4>
+<div class="image fit">
+<img src="/images/fulls/3D_modeling/boite_crayons/boite_crayons_photo_ref.jpg"></div>
 
 <div class="sketchfab-embed-wrapper"><iframe width="640" height="480" src="https://sketchfab.com/models/0372565911eb4547aaaad8b315c99b54/embed" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
 
