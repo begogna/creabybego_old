@@ -1,0 +1,71 @@
+---
+layout: default
+name: 'Sewing'
+excerpt: 'Clothes that I have designed and sewed from scratch.'
+image: '/images/thumbs/sewing.jpg'
+image_list:
+  - image_path: '/images/thumbs/Sewing/shorts.jpg'
+    title: Fitness shorts with made with lycra fabric
+    link: '/images/fulls/Sewing/shorts.jpg'
+  - image_path: '/images/thumbs/Sewing/shorts_detail.jpg'
+    title: Fitness shorts waistband
+    link: '/images/fulls/Sewing/shorts_detail.jpg' 
+  - image_path: '/images/thumbs/Sewing/vestido.jpg'
+    title: Dress I entirely designed. Elastic cotton.
+    link: '/images/fulls/Sewing/vestido.jpg'
+  - image_path: '/images/thumbs/Sewing/vestido_camiseta.jpg'
+    title: Dress I designed and T-shirt I copied from one mine.
+    link: '/images/fulls/Sewing/vestido_camiseta.jpg' 
+  - image_path: '/images/thumbs/Sewing/neceser_hibou2.jpg'
+    title: Toiletry Bag vinyl lined 
+  - image_path: '/images/thumbs/Sewing/neceser_hibou_detalle.jpg'
+    title: Toiletry Bag vinyl lined zip
+    link: '/images/fulls/Sewing/neceser_hibou_detalle.jpg'
+  - image_path: '/images/thumbs/Sewing/neceser_sueco.jpg'
+    title: Travel Bag
+    link: '/images/fulls/Sewing/neceser_sueco.jpg'
+  - image_path: '/images/thumbs/Sewing/neceser_sueco_zip.jpg'
+    title: Travel Bag zip
+    link: '/images/fulls/Sewing/neceser_sueco_zip.jpg'
+  - image_path: '/images/thumbs/Sewing/mono_roca.jpg'
+    title: Jumpsuit I designed and sewed with elastic cotton
+    link: '/images/fulls/Sewing/mono_roca.jpg'
+  - image_path: '/images/thumbs/Sewing/mono_roca_back.jpg'
+    title: Jumpsuit I designed and sewed with elastic cotton
+    link: '/images/fulls/Sewing/mono_roca_back.jpg'
+  - image_path: '/images/thumbs/Sewing/coussin_passepoil.jpg'
+    title: Pillow cover with Paris drawings
+    link: '/images/fulls/Sewing/coussin_passepoil.jpg'
+  - image_path: '/images/thumbs/Sewing/coussin_passepoil_detail.jpg'
+    title:  Leatherette piping (passepoil en similicuir)
+    link: '/images/fulls/Sewing/coussin_passepoil_detail.jpg'
+  - image_path: '/images/thumbs/Sewing/camiseta_corazon.jpg'
+    title: Heart shaped map 
+    link: '/images/fulls/Sewing/camiseta_corazon.jpg'  
+  - image_path: '/images/thumbs/Sewing/corazon_bego.jpg'
+    title: My logo transfered in the back
+    link: '/images/fulls/Sewing/corazon_bego.jpg' 
+---
+
+
+<section>
+  <h2>Photos of my sewing</h2>
+  <div class="row">
+    {% for image in page.image_list %}
+      <article class="6u 12u$(xsmall) work-item">
+        <a href="{{ image.link }}" class="image fit thumb"><img src="{{ image.image_path }}" alt={{ image.title}} /></a>
+        <h3>{{ image.title}}</h3>
+        <p></p>
+      </article>
+    {% endfor %}
+  </div>  
+</section>
+
+
+<!-- Scripts -->
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/jquery.poptrox.min.js"></script>
+<script src="../assets/js/skel.min.js"></script>
+<script src="../assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="../assets/js/main.js"></script> 
