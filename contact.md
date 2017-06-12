@@ -6,9 +6,9 @@ comments: true
 
 <section>
 	<h2>Get In Touch</h2>
-	<p>Let me know design you would like to do or any comment you may have.</p>
+	<p>Let me know about any design you would like me to do or any feedback you may have.</p>
 	<div class="row">
-		<div class="8u 12u$(small)">
+<!-- 		<div class="8u 12u$(small)">
 			<form method="post" action="#">
 				<div class="row uniform 50%">
 					<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
@@ -19,6 +19,14 @@ comments: true
 			<ul class="actions">
 				<li><input type="submit" value="Send Message" /></li>
 			</ul>
+		</div> -->
+		<div class="8u 12u$(small)">
+			<div class="row uniform 50%">
+				<div class="image fit-orig">
+<!-- 					<img src="/images/bego_salto_malmo.jpg">
+ -->					<img src="/images/bego_verdon.jpg">
+				</div>
+			</div>
 		</div>
 		<div class="4u$ 12u$(small)">
 			<ul class="labeled-icons">
