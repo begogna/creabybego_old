@@ -50,7 +50,7 @@ image_list:
     {% for image in page.image_list %}
       <article class="6u 12u$(xsmall) work-item">
         <a href="{{ image.link }}" class="image fit thumb"><img src="{{ image.image_path }}" alt="{{ image.title}}" /></a>
-        <h3>"{{ image.title}}"</h3>
+        <h3>{{ image.title}}</h3>
         <p></p>
       </article>
     {% endfor %}
