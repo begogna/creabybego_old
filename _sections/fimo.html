@@ -1,0 +1,50 @@
+---
+layout: default
+name: 'Polymer clay'
+excerpt: 'My favourite polymer clay objects'
+image: '/images/thumbs/Fimo/galletas.jpg'
+image_list:
+  - image_path: '/images/thumbs/Fimo/galletas.jpg'
+    link: '/images/fulls/Fimo/galletas.jpg'
+    title: Biscuits hairclip
+  - image_path: '/images/thumbs/Fimo/galletas_perfil.jpg'
+    link: '/images/fulls/Fimo/galletas_perfil.jpg'
+    title: Biscuits hairclip profile
+  - image_path: '/images/thumbs/Fimo/cerdos_vacas.jpg'
+    link: '/images/fulls/Fimo/cerdos_vacas.jpg'
+    title: Sad pigs and angry cows hairclip
+  - image_path: '/images/thumbs/Fimo/osos.jpg'
+    link: '/images/fulls/Fimo/osos.jpg'
+    title: Bears in a snowbubble I made longtime ago
+  - image_path: '/images/thumbs/Fimo/rosa_negra2.jpg'
+    link: '/images/fulls/Fimo/rosa_negra2.jpg'
+    title: Black ring with red rose
+  - image_path: '/images/thumbs/Fimo/oreo.jpg'
+    link: '/images/fulls/Fimo/oreo.jpg'
+    title: Oreo biscuit with polymer clay
+  - image_path: '/images/thumbs/Fimo/pendientes.jpg'
+    link: '/images/fulls/Fimo/pendientes.jpg'
+    title: Earrings with painted and varnished polymer clay
+---
+
+
+<section id="two">
+  <h2>Favourite polymer clay objects I've made</h2>
+  <div class="row">
+    {% for image in page.image_list %}
+      <article class="6u 12u$(xsmall) work-item">
+        <a href="{{ image.link }}" class="image fit thumb"><img src="{{ image.image_path }}" alt={{ image.title}} /></a>
+        <h3>{{ image.title}}</h3>
+      </article>
+    {% endfor %}
+  </div>  
+</section>
+
+
+<!-- Scripts -->
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/jquery.poptrox.min.js"></script>
+<script src="../assets/js/skel.min.js"></script>
+<script src="../assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="../assets/js/main.js"></script> 

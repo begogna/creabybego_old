@@ -1,0 +1,41 @@
+---
+layout: default
+name: 'Drawings'
+excerpt: 'My favourite drawings'
+image: '/images/thumbs/Drawings/one_eyed_original.jpg'
+image_list:
+  - image_path: '/images/thumbs/Drawings/artsThesMiss3.jpg'
+    link: '/images/fulls/Drawings/artsThesMiss3.jpg'
+    title: Life drawing
+  - image_path: '/images/thumbs/Drawings/paysage_petit_matin.jpg'
+    link: '/images/fulls/Drawings/paysage_petit_matin.jpg'
+    title: Digital paiting from a picture I took
+  - image_path: '/images/thumbs/Drawings/poledance.jpg'
+    link: '/images/fulls/Drawings/poledance.jpg'
+    title: Drawing from a picture of me.
+  - image_path: '/images/thumbs/Drawings/huevo_poule.jpg'
+    link: '/images/fulls/Drawings/huevo_poule.jpg'
+    title: Funny drawing I made in a post-it some years ago.
+---
+
+
+<section id="two">
+  <h2>Some of my drawings</h2>
+  <div class="row">
+    {% for image in page.image_list %}
+      <article class="6u 12u$(xsmall) work-item">
+        <a href="{{ image.link }}" class="image fit thumb"><img src="{{ image.image_path }}" alt={{ image.title}} /></a>
+        <h3>{{ image.title}}</h3>
+      </article>
+    {% endfor %}
+  </div>  
+</section>
+
+
+<!-- Scripts -->
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/jquery.poptrox.min.js"></script>
+<script src="../assets/js/skel.min.js"></script>
+<script src="../assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="../assets/js/main.js"></script> 
