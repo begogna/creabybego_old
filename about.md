@@ -12,7 +12,7 @@ image: /images/fulls/01.jpg
 	</div>
 	<h7>Begoña Pérez Rodríguez</h7>
 	<br>
-	<a href="/assets/CVbperez_en.pdf" target="_blank"><span class="label">CV</span></a>
+	<a href="/assets/PEREZ_RODRIGUEZ_Begona.pdf" target="_blank"><span class="label">CV</span></a>
 	<br><br>
 	<p align="left">
 	 I always had an eye for detail.
